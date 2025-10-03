@@ -37,13 +37,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ? Builder(
               builder: (context) => Container(
                 color: Colors.transparent,
-                child: Center(
-                  child: Image.asset(
-                    'assets/images/20251003_1701_GXPTrace_Tech_Logo_simple_compose_01k6n603kefk1rxdd16z5es9n8.png',
-                    width: 500.0,
-                    height: 500.0,
-                    fit: BoxFit.contain,
-                  ),
+                child: Image.asset(
+                  'assets/images/20251003_1701_GXPTrace_Tech_Logo_simple_compose_01k6n603kefk1rxdd16z5es9n8.png',
+                  fit: BoxFit.contain,
                 ),
               ),
             )
@@ -56,13 +52,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ? Builder(
                   builder: (context) => Container(
                     color: Colors.transparent,
-                    child: Center(
-                      child: Image.asset(
-                        'assets/images/20251003_1701_GXPTrace_Tech_Logo_simple_compose_01k6n603kefk1rxdd16z5es9n8.png',
-                        width: 500.0,
-                        height: 500.0,
-                        fit: BoxFit.contain,
-                      ),
+                    child: Image.asset(
+                      'assets/images/20251003_1701_GXPTrace_Tech_Logo_simple_compose_01k6n603kefk1rxdd16z5es9n8.png',
+                      fit: BoxFit.contain,
                     ),
                   ),
                 )
