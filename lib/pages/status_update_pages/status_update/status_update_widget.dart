@@ -93,7 +93,7 @@ class _StatusUpdateWidgetState extends State<StatusUpdateWidget> {
           ),
         ),
         appBar: AppBar(
-          backgroundColor: Color(0xFF7575A8),
+          backgroundColor: Color(0xFF323394),
           automaticallyImplyLeading: false,
           leading: FlutterFlowIconButton(
             borderRadius: 20.0,
@@ -698,10 +698,10 @@ class _StatusUpdateWidgetState extends State<StatusUpdateWidget> {
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
                                   context.pushNamed(
-                                    DamagedDecommissionWidget.routeName,
+                                    DestructionDecommissionWidget.routeName,
                                     queryParameters: {
                                       'decommissionReason': serializeParam(
-                                        'Destruction',
+                                        '',
                                         ParamType.String,
                                       ),
                                     }.withoutNulls,
